@@ -26,7 +26,7 @@ class EmployeeController {
   }
 
 
-  // GET("/employees")
+  // GET("/employees") --
   @GetMapping("/employees")
   CollectionModel<EntityModel<Employee>> all() {
   
